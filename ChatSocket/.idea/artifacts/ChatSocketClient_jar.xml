@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ChatSocketClient:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ChatSocketClient_jar</output-path>
+    <root id="archive" name="ChatSocket.jar">
+      <element id="module-output" name="ChatSocket" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../JavaFX/javafx-sdk-21.0.9/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../JavaFX/javafx-sdk-21.0.9/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../JavaFX/javafx-sdk-21.0.9/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../JavaFX/javafx-sdk-21.0.9/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../JavaFX/javafx-sdk-21.0.9/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../JavaFX/javafx-sdk-21.0.9/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../JavaFX/javafx-sdk-21.0.9/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../JavaFX/javafx-sdk-21.0.9/lib/javafx-swt.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

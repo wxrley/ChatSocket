@@ -1,0 +1,207 @@
+/*** Estilo Geral ***/
+/* Estilo geral da aplicação */
+.root {
+    -fx-background-color: #2b2b2b;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 14px;
+}
+
+/*** Inputs ***/
+/* Estilização dos campos de entrada de texto (Login, Chat Input) */
+.text-field {
+    -fx-background-color: #3c3f41;
+    -fx-text-fill: #e0e0e0;
+    -fx-prompt-text-fill: #808080;
+    -fx-background-radius: 5;
+    -fx-border-color: #555555;
+    -fx-border-radius: 5;
+}
+
+/* Estilo do campo de texto quando está selecionado */
+.text-field:focused {
+    -fx-border-color: #4a90e2;
+}
+
+/* Estilização da área de texto (Chat Input com múltiplas linhas) */
+.text-area {
+    -fx-background-color: #3c3f41;
+    -fx-text-fill: #e0e0e0;
+    -fx-prompt-text-fill: #808080;
+    -fx-background-radius: 5;
+    -fx-border-color: #555555;
+    -fx-border-radius: 5;
+}
+
+/* Estilo da área de texto quando está selecionada */
+.text-area:focused {
+    -fx-border-color: #4a90e2;
+}
+
+/* Remove fundo da barra de rolagem interna do TextArea */
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.text-area .content {
+    -fx-background-color: transparent;
+}
+
+/*** Botões ***/
+/* Estilização padrão dos botões */
+.button {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+}
+
+/* Estilo do botão ao passar o mouse */
+.button:hover {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+}
+
+/* Estilo do botão ao ser clicado */
+.button:pressed {
+    -fx-background-color: #2a5d8f;
+}
+
+/*** ListView ***/
+/* Estilização do container da lista de mensagens */
+.list-view {
+    -fx-background-color: #2b2b2b;
+    -fx-background-insets: 0;
+    -fx-padding: 10;
+}
+
+/* Estilização das linhas (células) da lista */
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #e0e0e0;
+}
+
+/* Estilo para células que não possuem conteúdo */
+.list-cell:empty {
+    -fx-background-color: transparent;
+}
+
+/* Remove a cor azul de fundo quando clica em uma mensagem */
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: transparent;
+    -fx-text-fill: #e0e0e0;
+}
+
+/*** Barra de Rolagem ***/
+/* Estilização da área da barra de rolagem */
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+    -fx-pref-width: 8px;
+}
+
+.scroll-bar:horizontal {
+    -fx-background-color: transparent;
+    -fx-pref-height: 8px;
+}
+
+/* Estilização do indicador móvel da barra de rolagem */
+.scroll-bar .thumb {
+    -fx-background-color: #555555;
+    -fx-background-radius: 10;
+}
+
+/* Remove os botões de increment/decrement */
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-pref-height: 0;
+    -fx-pref-width: 0;
+    -fx-opacity: 0;
+}
+
+/*** Bolhas de Chat (MessageCell) ***/
+/* Mensagens do Sistema */
+.bubble-system {
+    -fx-background-color: transparent;
+}
+
+.text-system {
+    -fx-fill: #808080;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+/* Mensagens do Usuário (Você) */
+.bubble-user {
+    -fx-background-color: #000000;
+    -fx-background-radius: 10;
+}
+
+/* Texto das mensagens do usuário */
+.text-user {
+    -fx-fill: #ffffff;
+    -fx-font-size: 14px;
+}
+
+/* Mensagens de Outros Usuários */
+.bubble-other {
+    -fx-background-color: #444444;
+    -fx-background-radius: 10;
+}
+
+/* Texto das mensagens de outros usuários */
+.text-other {
+    -fx-fill: #e0e0e0;
+    -fx-font-size: 14px;
+}
+
+/*** Metadados (Nome e Horário) ***/
+/* Nome do usuário nas mensagens normais */
+.text-name-message {
+    -fx-font-weight: bold;
+    -fx-fill: #ffffff;
+    -fx-font-size: 14px;
+}
+
+/* Nome do usuário nas mensagens do sistema */
+.text-name-system {
+    -fx-font-weight: bold;
+    -fx-fill: #ffffff;
+    -fx-font-size: 12px;
+}
+
+/* Horário das mensagens */
+.text-time {
+    -fx-fill: #888888;
+    -fx-font-size: 10px;
+}
+
+/*** Terminal (Server) ***/
+.terminal-list {
+    -fx-background-color: #000000;
+    -fx-background-insets: 0;
+    -fx-padding: 10;
+    -fx-border-color: #333333;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.terminal-list .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Consolas", "Courier New", monospace;
+    -fx-font-size: 13px;
+}
+
+.terminal-list .list-cell:empty {
+    -fx-background-color: transparent;
+}
+
+.terminal-list .list-cell:filled:selected:focused,
+.terminal-list .list-cell:filled:selected {
+    -fx-background-color: #333333;
+    -fx-text-fill: #ffffff;
+}
