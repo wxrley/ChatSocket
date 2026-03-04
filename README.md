@@ -120,7 +120,7 @@ O **ChatSocket** é uma aplicação de chat cliente-servidor que utiliza **Virtu
   </tr>
   <tr>
     <td align="center"><b>👤 Tela de login</b></td>
-    <td align="center"><b>💬 Tela do Chat</b></td>
+    <td align="center"><b>💬 Tela do chat</b></td>
   </tr>
   <tr>
     <td><img src="ChatSocket/screenshots/screen3.png" width="400"/></td>
@@ -130,7 +130,7 @@ O **ChatSocket** é uma aplicação de chat cliente-servidor que utiliza **Virtu
     <td align="center"><b>🌐 Tela do servidor</b></td>
     <td align="center"><b>❌ Tela de erro</b></td>
   </tr>
-</div>
+  </div>
 </table>
 
 ## 👨‍💻 Autor
